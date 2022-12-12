@@ -4,7 +4,7 @@ import styles from "./navbarStyles.module.scss";
 const Navbar = () => {
 
   return (
-    <div className={`container ${styles.navbar}`}>
+    <div className={styles.navbar}>
       <span className={styles.navbar_large_item}>Where in the world?</span>
       <div className={styles.navbar_small_item}>
         <Image

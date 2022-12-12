@@ -1,22 +1,24 @@
-$background_darkMode: hsl(207, 26%, 17%);
+$background_darkMode: hsl(200, 15%, 8%);
 
 .navbar{
-  background-color: $background_darkMode;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  margin: 0;
   height: 50px;
-  gap: 500px;
   color: white;
 
   .navbar_large_item{
     font-weight: 600;
+    margin-left: 40px;
+    width: 200px;
   }
   
 
   .navbar_small_item{
     display: flex;
+    margin-right: 30px;
     flex-direction: row;
     gap: 5px;
     font-weight: 300;
